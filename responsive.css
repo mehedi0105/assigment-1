@@ -1,0 +1,65 @@
+@media only screen and (min-width: 350px) and (max-width: 767px) {
+  .navigation-bar {
+    width: 100% !important;
+  }
+  .banner-page {
+    display: block !important;
+  }
+  .name-tittle {
+    font-size: 32px;
+  }
+  .about-sub-title {
+    font-size: 12px !important;
+  }
+  .about-me-desc {
+    margin-top: 15px !important;
+    width: 100% !important;
+  }
+  .banner-ing img {
+    width: 100%;
+    height: 300px;
+  }
+  .project-btn {
+    font-size: 10px;
+  }
+  .project-tittle {
+    font-size: 20px !important;
+  }
+  .project-description {
+    font-size: 14px !important;
+  }
+  form input,
+  form textarea {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .navigation-bar {
+    width: 100% !important;
+  }
+  .name-tittle {
+    font-size: 32px;
+  }
+  .about-sub-title {
+    font-size: 12px !important;
+  }
+  .about-me-desc {
+    margin-top: 15px !important;
+    width: 90% !important;
+  }
+  .fa-brands {
+    margin: 9px !important;
+  }
+  .social-media-icon {
+    margin: 1px !important;
+  }
+  .institute {
+    margin-top: 52px !important;
+  }
+  .input-item {
+    width: 110% !important;
+  }
+  form {
+    padding: 0px !important;
+  }
+}

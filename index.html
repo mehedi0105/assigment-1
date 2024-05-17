@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Linnk Another File (Start)-->
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Linnk Another File (End)-->
+  <title>Assigment-1</title>
+</head>
+
+<body class="text-white">
+  <header>
+    <div class="container">
+      <div class="header-page">
+        <!--Navigation Bar (Start)-->
+        <div class="navigation-bar w-75 m-auto">
+          <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="#">
+              <img src="icons/logo.png" alt="logo" width="125" height="125" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+              <i class="fa fa-bars fs-5 text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="btn">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white fw-bold fs-5">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white fw-bold fs-5">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white fw-bold fs-5">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-white fw-bold fs-5">About</a>
+                </li>
+              </ul>
+              <button class="btn nav-btn">
+                <a href="resume/resume.pdf" class="text-decoration-none text-white" download="pdf"
+                  type="button">Resume<i class="fa fa-download text-dark"></i></a>
+              </button>
+            </div>
+          </nav>
+        </div>
+        <!--Navigation Bar (End)-->
+
+        <!--Banner (Start)-->
+        <div class="banner-page d-flex justify-content-center align-items-center p-3">
+
+          <div class="about-me-text">
+            <h1 class="name-tittle text-uppercase fw-bold">
+              Hi ! <br />
+              i'm mehedi hasan
+            </h1>
+            <h5 class="about-sub-title">
+              Web Developer || React Developer || Programmer
+            </h5>
+            <p class="mt-5 w-75 about-me-desc">
+              I am an enthusiastic JavaScript developer with knowing some
+              framework for the frontend and the backend. I know Basic PHP and
+              MySQL but basically a MERN developer.
+            </p>
+            <div class="social-media-icon m-3 d-flex align-items-center">
+              <i class="fa-brands fa-github ruounded m-3"></i>
+              <i class="fa-brands fa-linkedin ruounded m-3"></i>
+              <i class="fa-brands fa-youtube ruounded m-3"></i>
+              <button class="btn nav-btn m-3">
+                <a href="resume/resume.pdf" class="text-decoration-none text-white " download="pdf"
+                  type="button">Resume<i class="fa fa-download text-dark"></i></a>
+              </button>
+            </div>
+
+          </div>
+          <div class="banner-ing">
+            <img class="pt-2 pe-2 border-top border-end" src="images/gias.jpg" width="300" height="430" alt="img" />
+          </div>
+        </div>
+        <!-- Banner (End)-->
+      </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="portfolio-container w-75 m-auto pt-2">
+        <h1 class="tittle text-center fw-bolder p-5">Portfolio</h1>
+        <div class="project-box row d-flex justify-content-arround m-auto border">
+          <div class="project-img col-sm-12 col-md-12 col-lg-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./projects-img/travel-guru-map.png" class="d-block w-100" alt="project-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./projects-img/travel-guru-map.png" class="d-block w-100" alt="project-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./projects-img/travel-guru-map.png" class="d-block w-100" alt="project-img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-description col-sm-12 col-md-12 col-lg-6 pb-2">
+            <h4 class="project-tittle fw-bold">Online University <span><i
+                  class="fa-brands fa-staylinked project-icon"></i></span> <span><i
+                  class="fa-brands fa-codepen project-icon"></i></span> </h4>
+            <p>This is Travel service Agency website.user can login via Facebook sign-in,Google Sign-in and also Can
+              Create an New Account for use the services.user can Choice the service as he/she want. </p>
+            <ul class="ps-0">
+              <li>User can Choice the perfect vehicle as he/she Want </li>
+              <li>user also can see his/her Current location</li>
+              <li>Firebase Authentication Used in this Website.</li>
+              <li>Uer Can Login via (Google,Facebook,Github)also can Create Account. </li>
+            </ul>
+            <div class="project-btn-list d-flex justify-content-center gap-3 align-items-center">
+              <a href="#" class="btn project-btn text-white p-1" type="button">React</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">Firebase</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">HTML</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">CSS</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">NODE</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box row d-flex justify-content-arround m-auto border mt-5 mb-5">
+          <div class="project-img col-sm-12 col-md-12 col-lg-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./projects-img/Travel-Search.png" class="d-block w-100" alt="project-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./projects-img/Travel-Search.png" class="d-block w-100" alt="project-img">
+                </div>
+                <div class="carousel-item active">
+                  <img src="./projects-img/Travel-Search.png" class="d-block w-100" alt="project-img">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-description col-sm-12 col-md-12 col-lg-6 pb-2">
+            <h4 class="project-tittle fw-bold">Online University <span><i
+                  class="fa-brands fa-staylinked project-icon"></i></span> <span><i
+                  class="fa-brands fa-codepen project-icon"></i></span> </h4>
+            <p>This is Travel service Agency website.user can login via Facebook sign-in,Google Sign-in and also Can
+              Create an New Account for use the services.user can Choice the service as he/she want. </p>
+            <ul class="ps-0">
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing. </li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+            </ul>
+            <div class="project-btn-list d-flex justify-content-center gap-3 align-items-center">
+              <a href="#" class="btn project-btn text-white p-1" type="button">React</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">Firebase</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">HTML</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">CSS</a>
+              <a href="#" class="btn project-btn text-white p-1" type="button">NODE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education-container row d-flex justify-content-arround align-items-center">
+        <div class="skill col-lg-6 col-md-12 col-sm-12">
+          <div class="Expertise p-3">
+            <h3>Expertise:</h3>
+            <div class="education-btn-list ps-4 pe-4">
+              <a href="#" class="btn education-btn text-white p-1" type="button">React.js</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Javascript</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">node.js</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Firebase</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Express.js</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">HTML</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Bootstrap</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">MongoDB</a>
+            </div>
+          </div>
+          <div class="Comfortable p-3">
+            <h3>Comfortable:</h3>
+            <div class="education-btn-list ps-4 pe-4">
+              <a href="#" class="btn education-btn text-white p-1" type="button">SQL</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Redux</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Socket.io</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">AWS</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Docker</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">TypeScript</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Next.js</a>
+            </div>
+          </div>
+          <div class="Familiar p-3">
+            <h3>Familiar:</h3>
+            <div class="education-btn-list ps-4 pe-4">
+              <a href="#" class="btn education-btn text-white p-1" type="button">C++</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">python</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Spring Boot</a>
+              <a href="#" class="btn education-btn text-white p-1" type="button">Networking</a>
+            </div>
+          </div>
+          <div class="Tools p-3">
+            <h3>Tools:</h3>
+            <div class="education-btn-list ps-4 pe-4">
+              <a href="#" class="btn education-btn text-white " type="button">VS CODE</a>
+              <a href="#" class="btn education-btn text-white " type="button">JIRA</a>
+              <a href="#" class="btn education-btn text-white " type="button">Trello</a>
+              <a href="#" class="btn education-btn text-white " type="button">Git</a>
+            </div>
+          </div>
+        </div>
+        <div class="institute col-lg-6 col-md-12 col-sm-12 text-center">
+          <h3 class="name-tittle tittle">My Education</h3>
+          <p>B.Sc in Software Engineering, <br>
+            Yunnan University ( Kunming,Yunnan,China ) </p>
+          <p>2018-2022</p>
+        </div>
+      </div>
+      <div class="contact mt-5 pb-5">
+        <h1 class="text-center pb-3">Contact with Me</h1>
+        <form class="p-5 border text-center">
+          <input type="text" class=" p-3 mb-3" placeholder="pleace type your name" required><br>
+          <input type="email" class="p-3  mb-3" placeholder="pleace type your email" required>
+          <br>
+          <textarea name="" id="" class="mb-3 p-4" placeholder="Type here message"></textarea>
+          <br>
+          <input type="button" value="Send" class="w-50 contact-btn fw-bolder pt-3 pb-3">
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="pt-2">
+    <div class="footer-container">
+      <hr>
+      <div class="footer-text text-center">
+        <p><small>Copyright © 2024 | mehedi hasan</small></p>
+        <p>kunming,yunnan,china</p>
+        <div class="footer-icon pb-5">
+          <i class="fa-brands fa-github ruounded m-3"></i>
+          <i class="fa-brands fa-linkedin ruounded m-3"></i>
+          <i class="fa-brands fa-youtube ruounded m-3"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Linnk Another Script File (Start)-->
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+  <!--Linnk Another Script File (Start)-->
+</body>
+
+</html>

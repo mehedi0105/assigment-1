@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  background-color: #1a1a1a;
+  font-family: Inter;
+}
+.nav-btn,
+.nav-btn a,
+.nav-btn:hover {
+  font-weight: 300;
+  background-color: #0dcaf0;
+}
+.nav-btn a .fa-download {
+  background-color: #0dcaf0;
+}
+.name-tittle {
+  color: #00ffff;
+  font-size: 60px;
+}
+.fa-brands {
+  color: #00ffff;
+  font-size: 34px !important;
+}
+.nav-link:hover,
+.nav-btn a:hover {
+  color: royalblue !important;
+}
+.tittle {
+  font-size: 45px;
+}
+.project-btn,
+.project-btn:hover,
+.education-btn,
+.education-btn:hover {
+  background-color: #6c757d;
+}
+.project-tittle,
+.contact-btn {
+  color: #00ffff;
+}
+.project-icon {
+  font-size: 23px !important;
+}
+.education-btn-list {
+  line-height: 2.8rem !important;
+}
+.contact-container {
+  box-shadow: 4px 2px white;
+  margin-top: 150px !important;
+  margin-bottom: 50px !important;
+}
+form {
+  box-shadow: 10px 10px 5px #343333;
+}
+.contact-btn {
+  background-color: #343333;
+  border: none;
+  border-radius: 5%;
+}
+.contact-btn:hover {
+  background-color: #4868cf;
+}
+.contact-form {
+  text-align: center;
+}
+form input {
+  color: #6c757d;
+}
